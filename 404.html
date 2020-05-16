@@ -1,0 +1,46 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/w3.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Page not Found</title>
+
+    <div id="header" class="w3-container w3-theme w3-center">
+        <h1 id="h1" class="">Fungus Software</h1>
+    </div>
+    <div class="inline w3-center w3-block  w3-theme-dark">
+        <a href="./" class="w3-bar-item w3-button w3-mobile-50">Home</a>
+        <a href="./downloads" class="w3-bar-item w3-button w3-mobile-50">Downloads</a>
+    </div>
+
+    <div id="body" class="w3-container w3-padding-xlarge w3-center">
+        <h1 style="font-size:4em;">404</h1>
+        <p><b>Page not found</b></p><br>
+        <p>The page, &quot;<span id="name"></span>&quot;, could not be found.<br><br>Are you sure you got the right address?</p>
+    </div>
+    <script>document.getElementById("name").innerHTML = window.location.href;</script>
+
+    <div class="black" id ="footer">
+        <table>
+            <tr  class="w3-mobile">
+                <td class="w3-mobile" style="color:white;">
+                    <a href="./about.html">About</a><span style="padding-left:2em;"></span>
+                    <a href="./downloads.html">Downloads</a><span style="padding-left:2em;"></span>
+                </td>
+            </tr>
+        </table>
+        <table style="padding-top:243px;padding-bottom:8px;color:white;padding-left:50px;">
+            <tr class="w3-row">
+                <td class="w3-quarter">&nbsp;</td>
+                <td class="w3-half" style="padding-top:240px;padding-bottom:8px;color:white;padding-left:50px;">
+                    <hr style="border:1px solid rgb(50,50,50);" class="w3-center">
+                    <small>
+                        <a href="https://fungus-soft.com/">fungus-soft.com</a><span style="padding-left:2em;"></span>
+                        <a href="./privacy.html">Privacy Policy</a><span style="padding-left:2em;"></span>
+                    </small><br><br>
+                    <small class="copy">&copy; 2020 Fungus Software.</small>
+                </td>
+                <td class="w3-quarter">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+</html>
