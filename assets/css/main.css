@@ -1,0 +1,48 @@
+#header {
+  padding:16px;
+  padding-left:28px;
+}
+
+#footer {
+  position:absolute;
+  left:0;
+  width:100%;
+  color:white;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.black {
+    margin-top: 0 !important;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    background-color: rgba(15, 15, 15, 1);
+    color: white;
+}
+
+.black p {
+    font-size: 16px;
+}
+
+table {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.black td {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.black h3 {
+    padding-bottom: 16px;
+}
+
+table { width: 100%; }
+
+.copy {
+    font-size: 70%;
+}
