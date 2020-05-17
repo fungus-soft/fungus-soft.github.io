@@ -1,7 +1,6 @@
-#header {
-  padding:16px;
-  padding-left:28px;
-}
+.title {background-color:transparent;padding:0!important;font-size:170%;text-shadow: 2px 2px 4px #000000;}
+.title:hover {background-color:transparent!important;color:lightgray!important;}
+
 
 #footer {
   position:absolute;
