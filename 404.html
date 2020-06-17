@@ -23,7 +23,10 @@
         document.getElementById("errorcode").innerHTML = "Redirecting...";
         document.getElementById("errortitle").innerHTML = "&nbsp;";
         document.getElementById("errormessage").innerHTML = "&nbsp;";
-        window.location.href = window.location.href.toString().replace("fungus-soft.com/ci/", "ci.codemc.io/job/Fungus-Software/job/");
+
+        setTimeout(function(){
+            window.location.href = window.location.href.toString().replace("fungus-soft.com/ci/", "ci.codemc.io/job/Fungus-Software/job/");
+        }, 3000);
     }
     </script>
 
