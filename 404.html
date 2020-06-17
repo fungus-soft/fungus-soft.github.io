@@ -13,11 +13,19 @@
     </div>
 
     <div id="body" class="w3-container w3-padding-xlarge w3-center">
-        <h1 style="font-size:4em;">404</h1>
-        <p><b>Page not found</b></p><br>
-        <p>The page, &quot;<span id="name"></span>&quot;, could not be found.<br><br>Are you sure you got the right address?</p>
+        <h1 id="errorcode" style="font-size:4em;">404</h1>
+        <p id="errortitle"><b>Page not found</b></p><br>
+        <p id="errormessage">The page, &quot;<span id="name"></span>&quot;, could not be found.<br><br>Are you sure you got the right address?</p>
     </div>
-    <script>document.getElementById("name").innerHTML = window.location.href;</script>
+    <script>
+    document.getElementById("name").innerHTML = window.location.href;
+    if (window.location.href.toString().includes("fungus-soft.com/ci/")) {
+        document.getElementById("errorcode").innerHTML = "Redirecting...";
+        document.getElementById("errortitle").innerHTML = "&nbsp;";
+        document.getElementById("errormessage").innerHTML = "&nbsp;";
+        window.location.href = window.location.href.toString().replace("fungus-soft.com/ci/", "ci.codemc.io/job/Fungus-Software/job/");
+    }
+    </script>
 
     <div class="black" id ="footer">
         <table>
