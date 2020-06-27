@@ -130,4 +130,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-theme-action{color:#fff !important;background-color:#074b83 !important}.w3-theme{color:#fff !important; background-color:rgb(200,18,28) !important}.w3-black{color:#fff!important;background-color:#000!important}
 .w3-light-gray{color:#000!important;background-color:#f1f1f1!important}.w3-dark-gray{color:#fff!important;background-color:#616161!important}.w3-green{color:#fff!important;background-color:#4CAF50!important}
 .w3-bar{padding:24px 24px; background-image:linear-gradient(to right,rgb(233,22,32),rgb(150,18,28)); border-bottom:4px solid #a30f17}
-.w3-bar * {margin-left:4px;margin-right:4px;}
+.w3-bar * {margin-left:4px;margin-right:4px;}.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
