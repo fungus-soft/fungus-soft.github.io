@@ -30,6 +30,17 @@ table {margin:0 !important;padding:0 !important;}
 table {width:100%;}
 .copy {font-size:70%;}
 
-@media all and (max-width: 1024px) {
-    iframe[name=speedyadsframe] {display: none!important;}
+@media all and (max-width: 1024px){ iframe[name=speedyadsframe] {display: none!important;}}
+
+.mainitem {
+  display:inline-block;
+  border:1px solid black;
+  padding:12px;
+  width:270px;
+  height:140px;
+  text-decoration:none;
+  background-color:rgba(16,16,16,0.05);
 }
+.mainitem h4 {font-size:15px;}
+.flex-container {display:flex;flex-wrap: wrap;}
+.flex-container > a {margin:3px;text-align:center;}
