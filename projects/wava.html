@@ -12,10 +12,15 @@
     </div>
     <script src="../assets/js/side.js"></script>
 
-    <div id="body" class="w3-container w3-padding-xlarge">
+    <style type="text/css">
+@keyframes bg-scrolling-reverse {100% {background-position:50px 50px;}} @keyframes bg-scrolling {0% {background-position:50px 50px;}}
+.bg {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAF5SURBVGhD1ZjbkoQgDETR//9jS3c2W/YU43iBpBvY86KlkPQhTzqt6/qTRGzbtt+lNM/zfqdBWz0jl1IgFbEpqCcB5F3ySSinIhc5TkQl03QiQCHTfCKALdNlIoAp020igCXTdSKAIdN9IiAqM8REQERGKuIJ5pWRiURO17NXIhKRALU16CIMCVBTiyrClAClNWkiCglQUpsiopQATz3CIi0kwF2vkEhLCXDV0y3SQwKc9XaJ9JQAxwzVIiNIgDzLnwgelF5HApmmZVlkP+iU2OeBSdj11yG9/zSOeNpnXH3fvJ+WfgD15C7jx5uRZZ6yfb0dUaYk0+mKkWRKs1yuGkGmJsPtyp4ytb0fV/eQ8fQs2tFSxtureFcLmUiPqp1KmWjt6t0KGUZNVwWmDKuWuwrlFJkHsl9dRIIwJYxwNU8gtoRBqVgTTCFh0KqWBFRJGNTKd0GVEga9ujrwFZKuR5kWcrIOefgWPzakRwWZfz0RYBL230lLSi8YEqgyfp7SEQAAAABJRU5ErkJggg==) repeat 0 0;animation:bg-scrolling-reverse .92s infinite;animation-timing-function:linear;}
+    </style>
+
+    <div id="body" class="w3-container w3-padding-large">
         <div style="position:absolute;right:16px;"><a href="https://donorbox.org/donate-fungus">Donate</a><br><br><script type="text/javascript">sideAd();</script></div>
-        <h1 style="margin-bottom:0!important;"><b>Wava</b></h1>
-        <h4 style="margin-top:0!important;margin-bottom:16px!important;">The Web + Java = Wava</h4>
+        <h1 class="w3-animate-opacity" style="margin-bottom:0!important;"><b>Wava</b></h1>
+        <h4 class="w3-animate-opacity" style="margin-top:0!important;margin-bottom:16px!important;">The Web + Java = Wava</h4>
         <p><a href="https://github.com/fungus-soft/wava/"><button>Github</button></a>&nbsp;<a href="https://fungus-soft.com/wava/"><button>Online Alpha Demos</button></a></p><br>
 
         <div class="w3-cell-row">
@@ -38,14 +43,14 @@
     </div>
 
     <!-- Pricing Section -->
-    <div class="w3-container w3-center" style="padding:16px 68px 64px;line-height:1.8;background-color:lightgray;" id="pricing">
-        <h2>PLUGIN PRICING</h2>
+    <div class="w3-container w3-center" style="padding:14px 68px 48px;line-height:1.8;background-color:lightgray;" id="pricing">
+        <h3>Pricing</h3>
         <span>Choose a pricing plan that fits your needs.</span>
-        <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-row-padding w3-center" style="margin-top:42px">
             <div class="w3-halfquarter w3-section"></div>
             <div class="w3-quarter w3-section">
               <ul class="w3-ul w3-white w3-hover-shadow w3-border" style="background-color:white;">
-                <li class="w3-black w3-xlarge w3-padding-16"><h3>Basic</h3></li>
+                <li class="w3-black w3-xlarge w3-padding-16"><h3>Free</h3></li>
                 <li class="w3-padding-16"><b>Non-Commercial</b> Use Only</li>
                 <li class="w3-padding-16">&#10003; Support for Java Class Library</li>
                 <li class="w3-padding-16">&#10007; Exclude Modules</li>
@@ -56,7 +61,7 @@
                   <span class="w3-opacity">forever</span>
                 </li>
                 <li class="w3-light-gray w3-padding-24">
-                  <button class="w3-button w3-black w3-padding-large" disabled>Free</button>
+                  <a href="#maven"><button class="w3-button w3-green w3-padding">See Details</button></a>
                 </li>
               </ul>
             </div>
@@ -73,7 +78,7 @@
                   <span class="w3-opacity">per month + tax</span>
                 </li>
                 <li class="w3-light-gray w3-padding-24">
-                  <button class="w3-button w3-black w3-padding-large" disabled>Coming Soon</button>
+                  <button class="w3-button w3-black" disabled>Coming Soon</button>
                 </li>
               </ul>
             </div>
@@ -86,22 +91,65 @@
                 <li class="w3-padding-16">&#10003; Support for JavaFX</li>
                 <li class="w3-padding-16">&#10003; Support for SWT</li>
                 <li class="w3-padding-16">
-                  <h2>$5.99</h2>
-                  <span class="w3-opacity">per month + tax</span>
+                  <h2>$59.99</h2>
+                  <span class="w3-opacity">per year + tax</span>
                 </li>
                 <li class="w3-light-gray w3-padding-24">
-                  <button class="w3-button w3-black w3-padding-large" disabled>Coming Soon</button>
+                  <button class="w3-button w3-black" disabled>Coming Soon</button>
                 </li>
               </ul>
             </div>
             <div class="w3-halfquarter w3-section"></div>
+        </div><br>
+        <small><a href="mailto:admin@fungus-soft.com">Contact Us for More Options</a></small>
+    </div>
+    <div style="padding:224px;" class="bg w3-center"><script src="../assets/js/bottom.js"></script><br></div>
+
+    <div class="w3-container" style="padding:14px 68px 48px;line-height:1.8;background-color:lightgray;" id="maven">
+        <div class="w3-center">
+        <h3>Maven Plugin</h3>
+        <span>Add this plugin to your existing Maven project</span>
+        </div>
+
+        <div class="w3-row-padding" style="margin-top:42px">
+            <div class="w3-quarter w3-section">
+            </div>
+            <div class="w3-half">
+                    <div>
+                    <code style="float:left;" class="w3-code" id="code1"><pre>
+&lt;pluginRepository&gt;
+    &lt;id&gt;fungus-software&lt;/id&gt;
+    &lt;url&gt;https://repo.fungus-soft.com/&lt;/url&gt;
+&lt;/pluginRepository&gt;
+            </pre>&nbsp;<br>
+            </code>
+
+            <code style="float:right;" class="w3-code" id="code2"><pre>
+&lt;plugin&gt;
+    &lt;groupId&gt;com.fungus-soft&lt;/groupId&gt;
+    &lt;artifactId&gt;java-2-gwt-plugin&lt;/artifactId&gt;
+    &lt;version&gt;0.0.2-SNAPSHOT&lt;/version&gt;
+    &lt;executions&gt;
+        &lt;execution&gt;
+            &lt;phase&gt;compile&lt;/phase&gt;
+            &lt;goals&gt;
+                &lt;goal&gt;convert2GWT&lt;/goal&gt;
+            &lt;/goals&gt;
+        &lt;/execution&gt;
+    &lt;/executions&gt;
+&lt;/plugin&gt;</pre></code>
+        </div>
+            </div>
+            <div class="w3-quarter w3-section">
+            </div>
         </div>
     </div>
-    <div style="padding:256px;"><br><br></div>
+
+    <div style="padding:256px;" class="w3-center"><script src="../assets/js/bottom.js"></script><br></div>
 
     <div class="black" id ="footer">
         <table>
-            <tr  class="w3-mobile">
+            <tr class="w3-mobile">
                 <td class="w3-mobile" style="color:white;">
                     <a href="../about.html">About</a><span style="padding-left:2em;"></span>
                     <a href="../downloads.html">Downloads</a><span style="padding-left:2em;"></span>
@@ -112,7 +160,7 @@
         <table style="padding-top:80px;padding-bottom:8px;color:white;">
             <tr class="w3-row">
                 <td class="w3-quarter">&nbsp;</td>
-                <td class="w3-half" style="padding-top:150px;padding-bottom:8px;color:white;padding-left:50px;">
+                <td class="w3-half" style="padding-top:150px;padding-bottom:8px;color:white;">
                    <script type="text/javascript">
                     sa_client = "a859de98a47a2fd0091878cd36b45c4f";sa_code = "4bb1936a87f8d313df97b7e8189d78dd";sa_protocol=("https:"==document.location.protocol)?"https":"http";sa_pline="0";sa_maxads="4";sa_bgcolor = "ffffff";
                     sa_bordercolor="bdd631";sa_superbordercolor="bdd631";sa_linkcolor="001eb5";sa_desccolor="000000";sa_urlcolor="788300";sa_b="0";sa_format="banner_728x90_4";sa_width="728";sa_height="90";
@@ -125,13 +173,13 @@
         <table style="padding-top:50px;padding-bottom:8px;color:white;">
             <tr class="w3-row">
                 <td class="w3-quarter">&nbsp;</td>
-                <td class="w3-half" style="padding-top:243px;padding-bottom:8px;color:white;padding-left:50px;">
+                <td class="w3-half" style="padding-top:243px;padding-bottom:8px;color:white">
                     <hr style="border:1px solid rgb(50,50,50);" class="w3-center">
                     <small>
                         <a href="https://fungus-soft.com/">fungus-soft.com</a><span style="padding-left:2em;"></span>
                         <a href="./privacy.html">Privacy Policy</a><span style="padding-left:2em;"></span>
                     </small><br><br>
-                    <small class="copy">&copy; 2020 Fungus Software&trade;</small>
+                    <small class="copy">&copy; 2020 Fungus Software&trade;. All Rights Reserved</small>
                 </td>
                 <td class="w3-quarter">&nbsp;</td>
             </tr>
