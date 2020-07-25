@@ -31,6 +31,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}.w3-col.s1{width:8.33333%}.w3-col.s2{width:16.66666%}.w3-col.s3{width:24.99999%}.w3-col.s4{width:33.33333%}.w3-col.s5{width:41.66666%}
 .w3-col.s6{width:49.99999%}.w3-col.s7{width:58.33333%}.w3-col.s8{width:66.66666%}.w3-col.s9{width:74.99999%}.w3-col.s10{width:83.33333%}.w3-col.s11{width:91.66666%}.w3-col.s12{width:99.99999%}.w3-halfquarter{float:left;width:100%}
+.half-third {width:16.666665%;}
 @media (min-width:601px){.w3-col.m1{width:8.33333%}.w3-col.m2{width:16.66666%}.w3-col.m3,.w3-halfquarter{width:12.999%}.w3-quarter{width:24.99999%}.w3-col.m4,.w3-third{width:33.33333%}
 .w3-col.m5{width:41.66666%}.w3-col.m6,.w3-half{width:49.99999%}.w3-col.m7{width:58.33333%}.w3-col.m8,.w3-twothird{width:66.66666%}
 .w3-col.m9,.w3-threequarter{width:74.99999%}.w3-col.m10{width:83.33333%}.w3-col.m11{width:91.66666%}.w3-col.m12{width:99.99999%}}
@@ -70,5 +71,5 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .w3-theme-action{color:#fff !important;background-color:#074b83 !important}.w3-theme{color:#fff !important; background-color:rgb(200,18,28) !important}.w3-black{color:#fff!important;background-color:#000!important}
 .w3-light-gray{color:#000!important;background-color:#f1f1f1!important}.w3-dark-gray{color:#fff!important;background-color:#616161!important}.w3-green{color:#fff!important;background-color:#4CAF50!important}
 .w3-bar{padding:24px 24px; background-image:linear-gradient(to right,rgb(233,22,32),rgb(150,18,28)); border-bottom:4px solid #a30f17}
-.w3-bar * {margin-left:4px;margin-right:4px;}.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.w3-bar * {margin-left:4px;margin-right:4px;}.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.padding-18{padding-top:18px!important;padding-bottom:18px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
 .w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
