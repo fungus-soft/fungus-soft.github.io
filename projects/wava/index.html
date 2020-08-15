@@ -3,21 +3,21 @@
     <link rel="stylesheet" href="../../assets/css/w3.css">
     <link rel="stylesheet" href="../../assets/css/w3-colors.css">
     <link rel="stylesheet" href="../../assets/css/main.css">
-    <title>Fungus Software - Wava</title>
+    <title>Wava - Javazilla</title>
 
-    <div class="w3-bar w3-theme-dark" id="header">
-        <a href="../../" class="title w3-bar-item w3-button w3-mobile">Fungus Software</a>
-        <a href="../../downloads" style="float:right" class="w3-center w3-bar-item w3-button w3-mobile-50">Downloads</a>
-        <a href="../../" style="float:right" class="w3-bar-item w3-button w3-mobile-50">Home</a>
+    <!-- particles.js container --> 
+    <div id="particles-js" style="position:fixed;width:100%;z-index:-10;"></div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../../assets/js/bg.js"></script>
+
+    <div class="w3-bar" id="header" style="color:white;">
+        <a href="../../" class="title w3-bar-item w3-button w3-mobile"><img src="../../assets/images/Javazilla.png" height="40px"></a>
+        <a href="../../downloads" style="float:right; background-color:black;" class="w3-center w3-bar-item w3-button w3-mobile-50">Downloads</a>
+        <a href="../../" style="float:right; background-color:black;" class="w3-bar-item w3-button w3-mobile-50">Home</a>
     </div>
     <script src="../../assets/js/side.js"></script>
 
-    <style type="text/css">
-@keyframes bg-scrolling-reverse {100% {background-position:32px 32px;}} @keyframes bg-scrolling {0% {background-position:32px 32px;}}
-.bg {background: url("bg.png") repeat 0 0;animation:bg-scrolling-reverse .92s infinite;animation-timing-function:linear;}
-    </style>
-
-    <div id="body" class="w3-container w3-padding-large">
+    <div id="body" class="w3-container w3-padding-large" style="background:rgba(255,255,255,1)">
         <div style="position:absolute;right:16px;"><a href="https://donorbox.org/donate-fungus">Donate</a><br><br><script type="text/javascript">sideAd();</script></div>
         <h1 class="w3-animate-opacity" style="margin-bottom:0!important;"><img src="wava-logo.png" alt="Wava" width="120px"></h1>
         <h4 class="w3-animate-opacity" style="margin-top:0!important;margin-bottom:16px!important;">The Web + Java = Wava</h4>
@@ -72,7 +72,7 @@
                 <li class="padding-18">&#10003; Support for Java Class Library</li>
                 <li class="padding-18">&#10003; Support for AWT / Swing</li>
                 <li class="padding-18">&#10003; Exclude Modules</li>
-                <li class="w3-padding-16"><h2 style="margin-bottom:0;">$29.99</h2><span class="w3-opacity">per year + tax</span></li>
+                <li class="w3-padding-16"><h2 style="margin-bottom:0;">$11.99</h2><span class="w3-opacity">per year + tax</span></li>
                 <li class="w3-light-gray w3-padding-24">
                   <button class="w3-button w3-black w3-padding" disabled>Coming Soon</button>
                 </li>
@@ -82,9 +82,10 @@
         </div><br>
         <small><a href="mailto:admin@fungus-soft.com">Contact Us for More Options</a></small>
     </div>
-    <div style="padding:224px;" class="bg w3-center"><script src="../../assets/js/bottom.js"></script><br></div>
+    <div style="padding:224px;" class="w3-center"><script src="../../assets/js/bottom.js"></script><br></div>
+    <span id="maven">&nbsp;<br></span>
 
-    <div class="w3-container" style="padding:14px 68px 48px;line-height:1.8;background-color:lightgray;" id="maven">
+    <div class="w3-container" style="padding:14px 68px 48px;line-height:1.8;background-color:lightgray;" id="mav">
         <div class="w3-center">
         <h3>Maven Plugin</h3>
         <span>Add this plugin to your existing Maven project</span>
@@ -95,15 +96,15 @@
             </div>
             <div class="w3-half w3-mobile">
                     <div>
-                    <code style="float:left;" class="w3-code" id="code1"><pre>
+                    <code style="float:left;font-size:11px;" class="w3-code" id="code1"><pre>
 &lt;pluginRepository&gt;
     &lt;id&gt;fungus-software&lt;/id&gt;
-    &lt;url&gt;https://repo.fungus-soft.com/&lt;/url&gt;
+    &lt;url&gt;https://repo.javazilla.com/&lt;/url&gt;
 &lt;/pluginRepository&gt;
             </pre>&nbsp;<br>
             </code>
 
-            <code style="float:right;" class="w3-code" id="code2"><pre>
+            <code style="float:right;font-size:11px;" class="w3-code" id="code2"><pre>
 &lt;plugin&gt;
     &lt;groupId&gt;com.fungus-soft&lt;/groupId&gt;
     &lt;artifactId&gt;java-2-gwt-plugin&lt;/artifactId&gt;
@@ -132,7 +133,7 @@
                 <td class="w3-mobile" style="color:white;">
                     <a href="../about.html">About</a><span style="padding-left:2em;"></span>
                     <a href="../downloads.html">Downloads</a><span style="padding-left:2em;"></span>
-                    <a href="https://github.com/fungus-soft/">Github</a><span style="padding-left:2em;"></span>
+                    <a href="https://github.com/fungus-soft/">Github</a>
                 </td>
             </tr>
         </table>
@@ -152,13 +153,13 @@
         <table style="padding-top:50px;padding-bottom:8px;color:white;">
             <tr class="w3-row">
                 <td class="w3-quarter">&nbsp;</td>
-                <td class="w3-half" style="padding-top:243px;padding-bottom:8px;color:white">
-                    <hr style="border:1px solid rgb(50,50,50);" class="w3-center">
+                <td class="w3-half" style="padding-top:220px;padding-bottom:8px;color:white">
+                    <hr style="border:1px solid rgb(30,30,30);" class="w3-center">
                     <small>
-                        <a href="https://fungus-soft.com/">fungus-soft.com</a><span style="padding-left:2em;"></span>
-                        <a href="./privacy.html">Privacy Policy</a><span style="padding-left:2em;"></span>
+                        <a href="https://javazilla.com/">javazilla.com</a><span style="padding-left:2em;"></span>
+                        <a href="../../privacy.html">Privacy Policy</a>
                     </small><br><br>
-                    <small class="copy">&copy; 2020 Fungus Software&trade;. All Rights Reserved</small>
+                    <small class="copy">&copy; 2020 Javazilla Software. All Rights Reserved</small>
                 </td>
                 <td class="w3-quarter">&nbsp;</td>
             </tr>
